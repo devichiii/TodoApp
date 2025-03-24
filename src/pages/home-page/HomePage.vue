@@ -36,7 +36,7 @@ onMounted(async () => {
 
 h1 {
   text-align: center;
-  color: #2c3e50;
+  color: var(--text-color);
   font-size: 2.5rem;
   margin-bottom: 24px;
   position: relative;

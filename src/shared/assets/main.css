@@ -3,6 +3,24 @@ body {
     font-family: Arial, sans-serif;
     padding: 20px;
   }
+
+  :root {
+    --primary: #42b983;
+    --background: #ffffff;
+    --text: #2c3e50;
+  }
+
+  .dark-theme {
+    --primary: #2c3e50;
+    --background: #1a1a1a;
+    --text: #ffffff;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--text);
+    transition: color 0.3s, background-color 0.3s;
+  }
   
   .todo-form {
     margin-bottom: 20px;

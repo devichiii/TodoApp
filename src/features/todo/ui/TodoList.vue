@@ -96,7 +96,7 @@ const handleDrop = (index: number) => {
 .empty-state {
   text-align: center;
   padding: 40px 20px;
-  background: white;
+  background-color: var(--bg-color);
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   margin-top: 20px;

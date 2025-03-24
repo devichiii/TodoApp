@@ -103,6 +103,7 @@ const handleBlur = () => {
 
 <style scoped>
 .todo-item {
+  color: #2c3e50;
   display: flex;
   align-items: center;
   padding: 12px 16px;
@@ -222,18 +223,14 @@ const handleBlur = () => {
   color: #f44336;
 }
 
-.dark-mode .todo-item {
-  background: #2d3748;
+.dark-theme .edit-btn {
+  background-color: #4a5568;
   color: #e2e8f0;
 }
 
-.dark-mode .todo-input {
-  background: #4a5568;
-  color: white;
-}
-
-.dark-mode .completed {
-  color: #718096;
+.dark-theme .delete-btn {
+  background-color: #4a5568;
+  color: #e2e8f0;
 }
 
 </style>
